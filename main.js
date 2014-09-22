@@ -3,4 +3,4 @@ document.getElementById("update-button").onclick = function(){
   var swordsCost = Number(document.getElementById('swords').value) * 37;
   var totalCost = swordsCost + thimblesCost;
   document.getElementById("the-total").textContent = totalCost + " monies";
-}
+};
